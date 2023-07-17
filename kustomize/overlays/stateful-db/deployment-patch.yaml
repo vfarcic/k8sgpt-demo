@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
         - name: silly-demo
-          env: 
+          env:
             - name: DB_ENDPOINT
               value: postgresql
             - name: DB_PORT
